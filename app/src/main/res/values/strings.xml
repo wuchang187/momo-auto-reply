@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">陌陌自动回复</string>
+    <string name="accessibility_service_description">陌陌消息自动回复服务，可以自动读取聊天消息并生成AI回复，支持多用户对话管理。</string>
+    <string name="btn_enable_accessibility">开启无障碍服务</string>
+    <string name="btn_check_service_status">检查服务状态</string>
+    <string name="btn_settings">设置</string>
+    <string name="btn_exit">退出</string>
+    <string name="status_service_enabled">服务已开启</string>
+    <string name="status_service_disabled">服务已关闭</string>
+    <string name="msg_please_enable_accessibility">请在设置中开启无障碍服务，否则应用无法正常工作。</string>
+    <string name="msg_service_enabled_success">无障碍服务已开启，应用可以正常工作。</string>
+    <string name="msg_service_enabled_failed">无障碍服务开启失败，请手动在设置中开启。</string>
+    <string name="title_settings">设置</string>
+    <string name="title_ai_model">AI模型选择</string>
+    <string name="title_role_setting">角色设定</string>
+    <string name="title_about">关于</string>
+    <string name="version">版本 1.0.0</string>
+    <string name="copyright">© 2024 陌陌自动回复</string>
+</resources>

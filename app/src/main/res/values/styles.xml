@@ -1,0 +1,107 @@
+<resources>
+    <!-- 基础主题 -->
+    <style name="Theme.MomoAutoReply" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/black</item>
+        <!-- Surface color -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/black</item>
+        <!-- Error color -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- 窗口动画样式 -->
+    <style name="WindowAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <!-- 按钮样式 -->
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginVertical">8dp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- 主要按钮样式 -->
+    <style name="AppButton.Primary" parent="AppButton">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 次要按钮样式 -->
+    <style name="AppButton.Secondary" parent="AppButton">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 普通按钮样式 -->
+    <style name="AppButton.Normal" parent="AppButton">
+        <item name="backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 文本样式 -->
+    <style name="AppText" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- 标题文本样式 -->
+    <style name="AppText.Title" parent="AppText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 副标题文本样式 -->
+    <style name="AppText.Subtitle" parent="AppText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <!-- 正文文本样式 -->
+    <style name="AppText.Body" parent="AppText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 辅助文本样式 -->
+    <style name="AppText.Caption" parent="AppText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- 卡片样式 -->
+    <style name="AppCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>
